@@ -3,9 +3,10 @@
 Windows 桌面连点器。把悬浮层上的标记拖到目标位置，设好速率，按 `F6` 开始、`F7` 随时停止。支持单点连点与多段脚本回放两种模式。
 
 <p>
-  <img src="docs/screenshot-light.png" alt="浅色主题" width="46%" />
   <img src="docs/screenshot-main.png" alt="深色主题" width="46%" />
+  <img src="docs/home.png" alt="主页" width="46%" />
 </p>
+
 
 ## 功能
 
