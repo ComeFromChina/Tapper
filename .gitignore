@@ -1,0 +1,23 @@
+# ---------------------------------------------
+# Tapper · 提交范围（见 README「仓库结构」）
+# ---------------------------------------------
+
+# 依赖与构建产物
+node_modules/
+dist/
+src-tauri/target/
+
+# Tauri 构建时生成的 schema（capabilities 会引用，但可随时重建）
+src-tauri/gen/schemas/
+
+# 打包出的二进制：归档在本地 release/，对外走 GitHub Releases
+/release/*.exe
+
+# 本地杂项
+*.log
+.shots
+.edge-profile*
+.env
+.env.*
+.DS_Store
+Thumbs.db
